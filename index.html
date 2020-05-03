@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery-Store</title>
+    <!--bs4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--datatable-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+</head>
+
+<body>
+    <header class="bg-info">
+        <div class="row text-warning">
+            <div class="col-md-6 p-3 pl-5">
+                <h1>Grocery-Store</h1>
+            </div>
+            <div class=" p-3 pr-5 ml-auto">
+                <button id="GroceryItemsReload" class="btn btn-warning btn-lg " value="Refresh Page" onclick="window.location.reload()"> Reload</button>
+            </div>
+
+        </div>
+    </header>
+    <Section id="shoppingList">
+        <!-- Page content -->
+        <div class="container-fluid p-4 ">
+            <!-- Table -->
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-success text-white ">
+                        <div class="card-header border-1">
+                            <div class="row">
+                                <div class="col-sm-8 col-md-6">
+                                    <h3 class="mb-1">Grocery-Shopping-List</h3>
+                                    <P>Using Jquery</P>
+                                </div>
+                                <div class=" p-3 pr-5 ml-auto">
+                                    <button id="getGroceryItems" class="btn btn-warning btn-lg " value="Ajax Call"> Get Shopping List</button>
+                                </div>
+                            </div>
+                            <div class="table-responsive ">
+                                <table class="table align-items-center table-flush" id="groceryTable">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th>SI NO.</th>
+                                            <th>NAME</th>
+                                            <th>QUANTITY</th>
+                                            <th>UNIT</th>
+                                            <th>DEPARTMENT</th>
+                                            <th>NOTES</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody style="color: black;" id="display-data">
+                                        <!--data by datatable ajax -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </Section>
+    <!--normal XHR ajax-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2>Grocery Table</h2>
+                    <p>normal XHR ajax</p>
+                </div>
+                <div class="col-lg-4">
+                    <button type="button" id="xhrAjaxRequest" class="btn btn-dark " onclick="displayList()">Get data by XHR Ajax</button>
+                </div>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>SI NO.</th>
+                        <th>NAME</th>
+                        <th>QUANTITY</th>
+                        <th>UNIT</th>
+                        <th>DEPARTMENT</th>
+                        <th>NOTES</th>
+                    </tr>
+                </thead>
+                <tbody id="xhrAjaxTable">
+                    <!--data by XHR ajax -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <!--BS4 JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--ajax-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--datatable js-->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    <!-- custom js-->
+    <script src="script.js"></script>
+</body>
+
+</html>

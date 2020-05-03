@@ -1,0 +1,113 @@
+[{
+        "siNo": 1,
+        "name": "sugar",
+        "quantity": 2,
+        "unit": "Kg",
+        "department": "food item",
+        "notes": " white sugar crystal "
+    },
+    {
+        "siNo": 2,
+        "name": "salt",
+        "quantity": 1,
+        "unit": "Kg",
+        "department": "food item",
+        "notes": " both powered and crystal"
+    },
+    {
+        "siNo": 3,
+        "name": "Sunflower Oil",
+        "quantity": 2,
+        "unit": "Litre",
+        "department": "food item",
+        "notes": "Ruchi gold "
+    },
+    {
+        "siNo": 4,
+        "name": "Rice",
+        "quantity": 10,
+        "unit": "Kg",
+        "department": "Grains",
+        "notes": "Matta"
+    },
+    {
+        "siNo": 5,
+        "name": "Kadala",
+        "quantity": 2,
+        "unit": "Kg",
+        "department": "Grains",
+        "notes": "medium size"
+    },
+    {
+        "siNo": 6,
+        "name": "Green beans",
+        "quantity": 1,
+        "unit": "Kg",
+        "department": "Grains",
+        "notes": "ensure quality"
+    },
+    {
+        "siNo": 7,
+        "name": "Tomatoe",
+        "quantity": 1,
+        "unit": "Kg",
+        "department": "Vegetables",
+        "notes": "Fresh & medium ones"
+    },
+    {
+        "siNo": 8,
+        "name": "Potato",
+        "quantity": 2,
+        "unit": "Kg",
+        "department": "Vegetables",
+        "notes": "Medium size"
+    },
+    {
+        "siNo": 9,
+        "name": "Beans",
+        "quantity": 1,
+        "unit": "Kg",
+        "department": "Vegetables",
+        "notes": "Fresh one"
+    },
+    {
+        "siNo": 10,
+        "name": "Sanitizer",
+        "quantity": 2,
+        "unit": "Nos",
+        "department": "Personal Hygiene",
+        "notes": " 100 Ml handy bottles"
+    },
+    {
+        "siNo": 11,
+        "name": "Face Mask",
+        "quantity": 20,
+        "unit": "Nos",
+        "department": "Personal Hygiene",
+        "notes": "Buy reusable masks"
+    },
+    {
+        "siNo": 12,
+        "name": "Hand Wash",
+        "quantity": 1,
+        "unit": "Litre",
+        "department": "Personal Hygiene",
+        "notes": "Money saver pack "
+    },
+    {
+        "siNo": 13,
+        "name": "Detol liquid",
+        "quantity": 1,
+        "unit": "Litre",
+        "department": "Personal Hygiene",
+        "notes": "Else Savalon"
+    },
+    {
+        "siNo": 14,
+        "name": "Soap",
+        "quantity": 5,
+        "unit": "Nos",
+        "department": "Personal Hygiene",
+        "notes": "Value pack"
+    }
+]

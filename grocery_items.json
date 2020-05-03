@@ -1,0 +1,129 @@
+{
+    "data": [{
+            "siNo": 1,
+            "name": "sugar",
+            "quantity": 2,
+            "unit": "Kg",
+            "department": "food item",
+            "notes": " white sugar crystal ",
+            "status": ""
+        },
+        {
+            "siNo": 2,
+            "name": "salt",
+            "quantity": 1,
+            "unit": "Kg",
+            "department": "food item",
+            "notes": " both powered and crystal",
+            "status": ""
+        },
+        {
+            "siNo": 3,
+            "name": "Sunflower Oil",
+            "quantity": 2,
+            "unit": "Litre",
+            "department": "food item",
+            "notes": "Ruchi gold ",
+            "status": ""
+        },
+        {
+            "siNo": 4,
+            "name": "Rice",
+            "quantity": 10,
+            "unit": "Kg",
+            "department": "Grains",
+            "notes": "Matta",
+            "status": ""
+        },
+        {
+            "siNo": 5,
+            "name": "Kadala",
+            "quantity": 2,
+            "unit": "Kg",
+            "department": "Grains",
+            "notes": "medium size",
+            "status": ""
+        },
+        {
+            "siNo": 6,
+            "name": "Green beans",
+            "quantity": 1,
+            "unit": "Kg",
+            "department": "Grains",
+            "notes": "ensure quality",
+            "status": ""
+        },
+        {
+            "siNo": 7,
+            "name": "Tomatoe",
+            "quantity": 1,
+            "unit": "Kg",
+            "department": "Vegetables",
+            "notes": "Fresh & medium ones",
+            "status": ""
+        },
+        {
+            "siNo": 8,
+            "name": "Potato",
+            "quantity": 2,
+            "unit": "Kg",
+            "department": "Vegetables",
+            "notes": "Medium size",
+            "status": ""
+        },
+        {
+            "siNo": 9,
+            "name": "Beans",
+            "quantity": 1,
+            "unit": "Kg",
+            "department": "Vegetables",
+            "notes": "Fresh one",
+            "status": ""
+        },
+        {
+            "siNo": 10,
+            "name": "Sanitizer",
+            "quantity": 2,
+            "unit": "Nos",
+            "department": "Personal Hygiene",
+            "notes": " 100 Ml handy bottles",
+            "status": ""
+        },
+        {
+            "siNo": 11,
+            "name": "Face Mask",
+            "quantity": 20,
+            "unit": "Nos",
+            "department": "Personal Hygiene",
+            "notes": "Buy reusable masks",
+            "status": ""
+        },
+        {
+            "siNo": 12,
+            "name": "Hand Wash",
+            "quantity": 1,
+            "unit": "Litre",
+            "department": "Personal Hygiene",
+            "notes": "Money saver pack ",
+            "status": ""
+        },
+        {
+            "siNo": 13,
+            "name": "Detol liquid",
+            "quantity": 1,
+            "unit": "Litre",
+            "department": "Personal Hygiene",
+            "notes": "Else Savalon",
+            "status": ""
+        },
+        {
+            "siNo": 14,
+            "name": "Soap",
+            "quantity": 5,
+            "unit": "Nos",
+            "department": "Personal Hygiene",
+            "notes": "Value pack",
+            "status": ""
+        }
+    ]
+}
